@@ -1,0 +1,50 @@
+@import '@/style/variable.scss';
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 20px 0;
+  width: 100%;
+  max-width: var(--max-width);
+  height: 100px;
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: $boxShadowHover;
+    border-radius: 21px;
+    text-align: center;
+    height: 42px;
+    cursor: pointer;
+    box-sizing: border-box;
+    &:last-child {
+      margin-left: auto;
+    }
+  }
+
+  .pre {
+    width: 35%;
+    background: #fff;
+    border: 1px solid #fff;
+
+    &:hover {
+      background: #fff;
+      color: var(--main-color);
+      border-color: var(--main-color);
+    }
+  }
+
+  .next {
+    width: 55%;
+    background: var(--main-color);
+    border-color: #fff;
+    color: #fff;
+
+    &.disabled {
+      cursor: not-allowed;
+      background: #b6b6b6;
+    }
+  }
+}

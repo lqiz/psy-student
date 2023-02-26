@@ -1,0 +1,42 @@
+{
+  "name": "psy-student",
+  "version": "1.0.0",
+  "description": "青少年在线心理测评系统",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lqiz/psy-student.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lqiz/psy-student/issues"
+  },
+  "homepage": "https://github.com/lqiz/psy-student#readme",
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^1.2.1",
+    "crypto-js": "^4.1.1",
+    "element-plus": "^2.2.26",
+    "nprogress": "^0.2.0",
+    "postcss-plugin-px2rem": "^0.8.1",
+    "postcss-pxtorem": "^6.0.0",
+    "qs": "^6.11.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vue-uuid": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "sass": "^1.56.2",
+    "vite": "^4.0.0"
+  }
+}

@@ -1,0 +1,133 @@
+@import '@/style/variable.scss';
+
+.home-main {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - $footerHeight);
+  box-sizing: border-box;
+}
+
+.title {
+  padding: 20px 0;
+  max-width: var(--max-width);
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.question-total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: var(--max-width);
+  box-sizing: border-box;
+  box-shadow: $boxShadow;
+  border-radius: 10px;
+  background: #fff;
+
+  img {
+    width: 70px;
+  }
+
+  .tip {
+    margin-left: 20px;
+    font-size: 22px;
+  }
+
+  &:hover {
+    box-shadow: $boxShadowHover;
+  }
+}
+
+.btn-group {
+  margin-top: 50px;
+  width: 100%;
+  max-width: var(--max-width);
+
+}
+
+.preview-btn,
+.start-btn {
+  width: 100%;
+  max-width: var(--max-width);
+  height: 50px;
+  border-radius: 25px;
+  background: var(--main-color);
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: $boxShadow;
+
+  &:hover {
+    box-shadow: $boxShadowHover;
+  }
+}
+
+.start-btn {
+  margin-bottom: 10px;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: var(--max-width);
+  height: 450px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: $boxShadow;
+  box-sizing: border-box;
+  img {
+    width: 250px;
+    height: 250px;
+  }
+  span {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+}
+
+.description {
+  margin-top: 50px;
+  padding: 20px;
+  padding-top: 5px;
+  width: 100%;
+  max-width: var(--max-width);
+  height: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: $boxShadow;
+  box-sizing: border-box;
+
+  .description-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    color: var(--main-color);
+    font-size: 18px;
+    text-align: center;
+
+    span {
+      padding: 0 20px;
+    }
+  }
+
+  .description-content {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
