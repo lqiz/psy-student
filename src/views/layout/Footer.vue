@@ -37,7 +37,7 @@
             href="https://opypw1kivl.feishu.cn/docx/HR6PdM7qGoywyxxMRXicDKoRnIg"
             target="_blank"
             :underline="false"
-            >获取帮助</el-link
+            >使用说明</el-link
           >
         </span>
         <span class="link">
@@ -93,11 +93,14 @@ import ConsultationButton from './ConsultationButton.vue';
     }
   }
   @include fullContent {
-    .link {
-      padding: 5px 0;
+    .footer .line:first-child  .link {
       &.pc::after {
         display: none;
       }
+    }
+    .link {
+      padding: 5px 0;
+      
     }
 
     .mb {
